@@ -1,9 +1,9 @@
 import { ReactElement } from "react";
 
-import { useCurrentVisualization } from "../hooks/useCurrentVisualization";
+import { useCurrentVisualization } from "./hooks/useCurrentVisualization";
 
-import { Test } from "../visualizations/Test";
-import { Test2 } from "../visualizations/Test2";
+import { Test } from "./visualizations/Test";
+import { Test2 } from "./visualizations/Test2";
 
 export const visualizations = [
   {
